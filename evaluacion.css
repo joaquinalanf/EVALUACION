@@ -1,0 +1,73 @@
+body{ /*color de fondo*/
+    background-color: bisque;
+}
+.todo { /* centra el cuadro */
+    display: flex;
+    justify-content: center;
+}
+.contenedor{ /* le da estilo al cuadro y color de fondo*/
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.cosas{ /* alinea a los logos y el texto*/
+    display: flex;
+    justify-content: baseline;
+}
+.logos{  /* separa los logos */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 20px;
+}
+.letras-azules{
+    color: rgb(0, 55, 255);
+    margin: 0px;
+}
+.letras-celestes{ /* le dan color a las letras y las junta*/
+    color: #00c8ff;
+    margin: 10px;
+}
+.letras-b{
+    color: #ffffff;
+    margin-right: 30px;
+}
+
+
+.licenciatura{ /*alinea el texto y el logo sobre la imagen principal*/
+    position: absolute;
+    display: flex;
+    top: 150px;
+}
+h2{
+    margin: 0%;
+}
+p{
+    margin: 0px;
+}
+.boton-correo{ /*le da estilo al boton de contactar */
+    display: flex;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    border-radius: 8px;
+    background-color: #00538f;
+    border: 1px sold red;
+}
+.boton{
+    display: flex;
+    width: auto;
+    border-radius: 20px;
+    color: #ffffff;
+}
+a{ /* quita la linea del enlace */
+    text-decoration: none;
+}
+
+.contact{
+    margin: 10px;
+}
